@@ -1,0 +1,71 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero_image{
+    background:url(Food.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 2.8rem;
+}
+.wrapper p {
+    color: white;
+    font-weight: 300;
+}
+.wrapper span{
+  
+        display: block;
+        margin-left: 5rem;
+        color: blue;
+        margin-bottom: 13px;
+        font-weight: bold;
+  
+}
+.from_code .input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    width: 80%;
+    padding: 10px;
+
+}
+.from_code button{
+    width: 50%;
+    display: block;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    margin:1rem auto 0rem;
+
+}
+
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product .image{
+    margin-top: 2rem;
+    width: 32.99%;
+    float: left;
+    margin-left:2px;
+
+}
+.image .image1{
+    width: 100%;
+    overflow: hidden;
+}
